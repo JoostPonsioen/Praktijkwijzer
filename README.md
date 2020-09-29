@@ -1,2 +1,2 @@
 # Praktijkwijzer
-Klachten systeem voor Camping de Maasvallei
+ Klachten systeem voor praktijkwijzer

@@ -1,0 +1,274 @@
+/* kleuren:
+#078282FF
+#95DBE5FF
+#339E66FF
+*/
+
+/* Hele html instellingen */
+html, body {
+  scroll-behavior: smooth;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Header instellingen */
+header {
+  font-weight: 700;
+  font-family: "Gotham Rounded A", "Gotham Rounded B", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  background-color: #95DBE5FF;
+}
+
+.navbar-brand img {
+  height: 55px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-weight: 700;
+}
+
+/* Main instellingen */
+
+.box-1 {
+  background-color: #078282FF;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  color: white;
+  font-size: xxx-large;
+  text-decoration: none;
+}
+
+.box-1:hover {
+  background-color: #339E66FF;
+  color: white;
+  text-decoration: none;
+}
+
+.box-2 {
+  background-color: #078282FF;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  color: white;
+  font-size: xxx-large;
+  text-decoration: none;
+}
+
+.box-2:hover {
+  background-color: #339E66FF;
+  color: white;
+  text-decoration: none;
+}
+
+/* Banner instellingen */
+.banner {
+  background-color: #078282FF;
+  text-align: center;
+  height: 200px;
+  margin-left: -100%;
+  margin-right: -100%;
+}
+
+.bannerlogo {
+    height: 180px;
+    width: 150px;
+    margin-top: 10px;
+}
+
+/* 404 pagina instellingen */
+.error1 {
+  margin-top: 20%;
+}
+
+.error2 {
+text-align: center;
+}
+
+.error2 img {
+  width: 40%;
+  height: 40%;
+}
+
+/* Footer instellingen */
+footer {
+  background-color: #95DBE5FF;
+  color: white;
+  margin-top: 50px;
+  font-weight: 700;
+  font-family: "Gotham Rounded A", "Gotham Rounded B", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+/* formulier instellingen */
+:root {
+  --input-padding-x: 1.5rem;
+  --input-padding-y: .75rem;
+}
+
+.card-signin {
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-signin .card-title {
+  margin-bottom: 2rem;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.card-signin .card-body {
+  padding: 2rem;
+}
+
+.form-signin {
+  width: 100%;
+}
+
+.form-signin .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  transition: all 0.2s;
+}
+
+.form-label-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form-label-group input {
+  height: auto;
+  border-radius: 2rem;
+}
+
+.form-label-group>input,
+.form-label-group>label {
+  padding: var(--input-padding-y) var(--input-padding-x);
+}
+
+.form-label-group>label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  margin-bottom: 0;
+  /* Override default `<label>` margin */
+  line-height: 1.5;
+  color: #495057;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  transition: all .1s ease-in-out;
+}
+
+.form-label-group input::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input:-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-moz-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::placeholder {
+  color: transparent;
+}
+
+.form-label-group input:not(:placeholder-shown) {
+  padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+  padding-bottom: calc(var(--input-padding-y) / 3);
+}
+
+.form-label-group input:not(:placeholder-shown)~label {
+  padding-top: calc(var(--input-padding-y) / 3);
+  padding-bottom: calc(var(--input-padding-y) / 3);
+  font-size: 12px;
+  color: #777;
+}
+
+/* HR instellingen */
+hr.style1 {
+  height: 30px;
+  border-style: solid;
+  border-color: #95DBE5FF;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+hr.style1:before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: #078282FF;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
+
+/* Button instellingen */
+.btn{
+  background-color: #078282FF;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #339E66FF;
+}
+
+.btn:active {
+  background-color: #339E66FF;
+}
+.btn:visited {
+  background-color: #339E66FF;
+}
+
+#myBtn {
+  background-color: #078282FF;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+#myBtn:hover {
+  background-color: #339E66FF;
+}
+
+#myBtn:active {
+  background-color: #339E66FF;
+}
+#myBtn:visited {
+  background-color: #339E66FF;
+}
+
+/* Button uitloggen */
+.uitloggen {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+}
+
+/* Admin-panel add pagina instellingen */
+.toevoegen {
+  text-align: center;
+}
+
+/* Tabel instellingen instellingen */
+th, td, tr {
+  min-width: 20px;
+}
